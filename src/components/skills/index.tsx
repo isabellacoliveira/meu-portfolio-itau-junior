@@ -29,26 +29,9 @@ const Skills = () => {
             <div>
                 <p className="title">Características da Personalidade (ESFJ-T/Cônsul)</p>
                 <div className="infos">
-                    <div className="skils">
-                        <div className="tables">
-                            <ul className="list-group">
-                                <li className="list-group-item active">Pontos Fortes</li>
-                                <li className="list-group-item">Colaborativa</li>
-                                <li className="list-group-item">Habilidosa com pessoas</li>
-                                <li className="list-group-item">Altamente empática</li>
-                            </ul>
-                            <ul className="list-group">
-                                <li className="list-group-item active">Pontos a melhorar</li>
-                                <li className="list-group-item">Busca por aprovação</li>
-                                <li className="list-group-item">Preocupado em agradar os outros</li>
-                                <li className="list-group-item">Necessidade de validação</li>
-                            </ul>
-                        </div>
-                    </div>
                     <div className="personalidade">
                         <img src={caracteristicas} alt="" className="image" />
                     </div>
-
                 </div>
                 <div>
                     <div className="tracos">

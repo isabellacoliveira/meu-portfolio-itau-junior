@@ -27,14 +27,6 @@ export default function CardTask({ card }: CardProps) {
                     <Card.Title>{card.title}</Card.Title>
                     <Card.Text>{card.description}</Card.Text>
                 </div>
-                <button className="promo"
-                    style={{
-                        marginTop: '10px',
-                        backgroundColor: card.entregue ? 'green' : 'gray',
-                        color: 'white',
-                    }}>
-                    {card.entregue ? 'entregue' : 'em progresso'}
-                </button>
             </Card.Body>
         </Card>
     )
